@@ -15,10 +15,7 @@ const Footer = () => {
           </div>
 
           <ul className="footer-list">
-            <li>
-              <p className="footer-list-title">Company</p>
-            </li>
-
+            <p className="footer-list-title">Company</p>
             <li>
               <a href="#about" className="footer-link">
                 <ion-icon name="chevron-forward"></ion-icon>
@@ -61,10 +58,7 @@ const Footer = () => {
           </ul>
 
           <ul className="footer-list">
-            <li>
-              <p className="footer-list-title">Useful Links</p>
-            </li>
-
+            <p className="footer-list-title">Useful Links</p>
             <li>
               <a href="#" className="footer-link">
                 <ion-icon name="chevron-forward"></ion-icon>

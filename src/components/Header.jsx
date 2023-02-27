@@ -1,3 +1,5 @@
+import PageLinks from "./PageLinks";
+
 const Header = () => {
   return (
     <header className="header" data-header>
@@ -7,43 +9,7 @@ const Header = () => {
         </a>
 
         <nav className="navbar container" data-navbar>
-          <ul className="navbar-list">
-            <li>
-              <a href="#" className="navbar-link" data-nav-link>
-                Home
-              </a>
-            </li>
-
-            <li>
-              <a href="#" className="navbar-link" data-nav-link>
-                Buy
-              </a>
-            </li>
-
-            <li>
-              <a href="#" className="navbar-link" data-nav-link>
-                Sell
-              </a>
-            </li>
-
-            <li>
-              <a href="#listing" className="navbar-link" data-nav-link>
-                Listing
-              </a>
-            </li>
-
-            <li>
-              <a href="#about" className="navbar-link" data-nav-link>
-                About Us
-              </a>
-            </li>
-
-            <li>
-              <a href="#contact" className="navbar-link" data-nav-link>
-                Contact
-              </a>
-            </li>
-          </ul>
+          <PageLinks />
         </nav>
 
         <a href="#" className="btn btn-secondary">
