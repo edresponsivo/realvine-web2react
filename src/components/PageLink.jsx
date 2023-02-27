@@ -1,10 +1,11 @@
-const PageLink = ( props ) => {
+import { capitalize } from "./utils";
 
-    const {href, text } = props;
+const PageLink = (props) => {
+  const { href, text } = props;
   return (
     <li>
       <a href={href} className="navbar-link" data-nav-link>
-        {text}
+        {capitalize(text)}
       </a>
     </li>
   );

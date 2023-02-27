@@ -1,3 +1,6 @@
+import FooterLink from "./FooterLink";
+import { footerLinksData1, footerLinksData2 } from "../../data";
+
 const Footer = () => {
   return (
     <footer className="footer">
@@ -16,7 +19,10 @@ const Footer = () => {
 
           <ul className="footer-list">
             <p className="footer-list-title">Company</p>
-            <li>
+            {footerLinksData1.map((footerLinkd1) => (
+              <FooterLink key={footerLinkd1.id} {...footerLinkd1} />
+            ))}
+            {/* <li>
               <a href="#about" className="footer-link">
                 <ion-icon name="chevron-forward"></ion-icon>
 
@@ -54,12 +60,16 @@ const Footer = () => {
 
                 <span className="span">Login</span>
               </a>
-            </li>
+            </li> */}
           </ul>
 
           <ul className="footer-list">
             <p className="footer-list-title">Useful Links</p>
-            <li>
+
+            {footerLinksData2.map((footerLinkD2) => (
+              <FooterLink key={footerLinkD2.id} {...footerLinkD2} />
+            ))}
+            {/* <li>
               <a href="#" className="footer-link">
                 <ion-icon name="chevron-forward"></ion-icon>
 
@@ -89,7 +99,7 @@ const Footer = () => {
 
                 <span className="span">Contact</span>
               </a>
-            </li>
+            </li> */}
           </ul>
 
           <ul className="footer-list">

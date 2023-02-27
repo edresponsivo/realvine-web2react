@@ -335,6 +335,8 @@ body {
 
 .navbar-link:is(:hover, :focus) {
   color: var(--green-pigment);
+  background-color: var(--carcoal_10);
+  border-radius: 12px;
 }
 
 /*-----------------------------------*\
