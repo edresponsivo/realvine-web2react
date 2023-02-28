@@ -578,6 +578,9 @@ body {
   box-shadow: var(--shadow-4);
   overflow: hidden;
   transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .property-card:is(:hover, :focus-within) {
