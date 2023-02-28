@@ -1,7 +1,7 @@
 import Hero from "./Hero";
 import About from "./About";
 import Service from "./Service";
-import Property from "./Property";
+import PropertyList from "./PropertyList";
 import Contact from "./Contact";
 import Newsletter from "./Newsletter";
 
@@ -19,7 +19,7 @@ const Main = () => {
         <Service />
 
         {/* PROPERTY */}
-        <Property />
+        <PropertyList />
 
         {/* CONTACT */}
         <Contact />

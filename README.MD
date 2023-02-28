@@ -20,12 +20,17 @@ I found the structure of the website was very well documented with comments and 
   - Footer
   - Back To Top Link
 - the Main Component has the following:
+
   - Hero
   - About
   - Service
   - Property
   - Contact
   - Newsletter
+
+  **Second Phase**
+  Extracted each individual Property data to the data.js
+  Created Individual Property Component.
 
 GitHub Action Workflow established
 Link to deployment: https://edresponsivo.github.io/realvine-web2react/

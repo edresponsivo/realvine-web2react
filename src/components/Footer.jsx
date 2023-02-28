@@ -22,45 +22,6 @@ const Footer = () => {
             {footerLinksData1.map((footerLinkd1) => (
               <FooterLink key={footerLinkd1.id} {...footerLinkd1} />
             ))}
-            {/* <li>
-              <a href="#about" className="footer-link">
-                <ion-icon name="chevron-forward"></ion-icon>
-
-                <span className="span">About us</span>
-              </a>
-            </li>
-
-            <li>
-              <a href="#service" className="footer-link">
-                <ion-icon name="chevron-forward"></ion-icon>
-
-                <span className="span">Services</span>
-              </a>
-            </li>
-
-            <li>
-              <a href="#listing" className="footer-link">
-                <ion-icon name="chevron-forward"></ion-icon>
-
-                <span className="span">Pricing</span>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" className="footer-link">
-                <ion-icon name="chevron-forward"></ion-icon>
-
-                <span className="span">Blog</span>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" className="footer-link">
-                <ion-icon name="chevron-forward"></ion-icon>
-
-                <span className="span">Login</span>
-              </a>
-            </li> */}
           </ul>
 
           <ul className="footer-list">
@@ -69,37 +30,6 @@ const Footer = () => {
             {footerLinksData2.map((footerLinkD2) => (
               <FooterLink key={footerLinkD2.id} {...footerLinkD2} />
             ))}
-            {/* <li>
-              <a href="#" className="footer-link">
-                <ion-icon name="chevron-forward"></ion-icon>
-
-                <span className="span">Terms of Services</span>
-              </a>
-            </li>
-
-            <li>
-              <a href="#" className="footer-link">
-                <ion-icon name="chevron-forward"></ion-icon>
-
-                <span className="span">Privacy Policy</span>
-              </a>
-            </li>
-
-            <li>
-              <a href="#listing" className="footer-link">
-                <ion-icon name="chevron-forward"></ion-icon>
-
-                <span className="span">Listing</span>
-              </a>
-            </li>
-
-            <li>
-              <a href="#contact" className="footer-link">
-                <ion-icon name="chevron-forward"></ion-icon>
-
-                <span className="span">Contact</span>
-              </a>
-            </li> */}
           </ul>
 
           <ul className="footer-list">
