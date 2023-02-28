@@ -574,6 +574,7 @@ body {
 
 .property-card {
   position: relative;
+  min-height: 530px;
   border-radius: var(--radius-12);
   box-shadow: var(--shadow-4);
   overflow: hidden;
